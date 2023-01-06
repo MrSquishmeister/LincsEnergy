@@ -1,0 +1,158 @@
+/*MAIN COLOR: #e87400*/
+/*BASIC SETUP*/
+* {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: white;
+    color: #808080;
+    font-family: 'arial';
+    /*Font size range 15 to 25px*/
+    font-size: 23px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/*********************************/
+/*HEADER*/
+/*********************************/
+
+.img_logo {
+    margin-left: 40px;
+    max-height: 100px;
+}
+
+/*********************************/
+/*NAVBAR*/
+/*********************************/
+
+.navbar ul {
+    list-style: none;
+    float: right;
+}
+
+.navbar ul li {
+    margin-right: 40px;
+    padding: 5px;
+    display: inline-block;
+    border-bottom: 3px solid;
+    border-color: #e87400;
+}
+
+.navbar ul li:hover {
+    border-bottom: 6px solid;
+    border-color: #e87400;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #e87400;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*********************************/
+/*HEADER*/
+/*********************************/
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    /* Center it */
+}
+
+.container .content {
+    position: absolute;
+    /* Position the background text */
+    top: 0;
+    /* At the bottom. Use top:0 to append it to the top */
+    margin-top: 250px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.2);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    /* Grey text */
+    width: 100%;
+    /* Full width */
+    padding: 20px;
+}
+
+/*********************************/
+/*HEADING*/
+/*********************************/
+.heading {
+    margin-top: 150px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+/*********************************/
+/*SUBHEADING*/
+/*********************************/
+.subheading {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+/*********************************/
+/*USER MESSAGE*/
+/*********************************/
+.user_message {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+/*********************************/
+/*FORM*/
+/*********************************/
+input[type=text],
+input[type=password],
+select {
+    width: 30%;
+    border: none;
+    border-bottom: 2px solid #e87400;
+    padding: 12px;
+    margin-left: 50px;
+    resize: vertical;
+    font-family: arial;
+    font-size: 26px;
+    color: #808080;
+}
+
+label {
+    display: inline-block;
+    padding: 12px 12px 12px 0;
+    color: #808080;
+}
+
+input[type=submit] {
+    margin-top: 10px;
+    margin-left: 486px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e87400;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+input[type=submit]:hover {
+    background-color: #808080;
+}
+
+/*********************************/
+/*FOOTER*/
+/*********************************/
+.footer_text {
+    margin-left: 33%;
+}
